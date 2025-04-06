@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Checkout</h1>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <figure id="product1">
+            <img src="https://images.pexels.com/photos/54101/magic-cube-cube-puzzle-play-54101.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="500px" alt="A rubik's cube">
+        <figcaption>Rubik's Cube</figcaption>
+        <label for="product1" id="price1">$11.99</label>
+        </figure>
+        </section>
+        <section id="payment">
+            <h2>Payment Information</h2>
+            <form>
+            <label for="card-name">
+            Cardholder's Name: 
+                <input id="card-name" name="card-name" required aria-required="true">
+            </label>
+            <br>
+            <label for="card-number">
+            Card Number: 
+                <input id="card-number" name="card-number" type="number" required aria-required="true">
+            </label>
+            <br>
+            <label for="expiry-date">
+            Expiry Date: 
+                <input id="expiry-date" name="expiry-date" type="date" required aria-required="true">
+            </label>
+            <br>
+            <label for="cvv">
+            CVV: 
+                <input id="cvv" name="cvv" type="number" required aria-required="true">
+            </label>
+            <br>
+            <button type="submit">Make Order</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
