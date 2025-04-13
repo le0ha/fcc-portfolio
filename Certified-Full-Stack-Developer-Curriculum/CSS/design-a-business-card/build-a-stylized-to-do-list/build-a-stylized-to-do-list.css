@@ -1,0 +1,43 @@
+body{
+  background-color:lightgrey;
+}
+h1{
+  text-align:center;
+}
+ul{
+  list-style-type: none;
+  background-color: white;
+  border-radius: 10px;
+  max-width:500px;
+  margin: auto;
+  padding:10px;
+}
+.sub-item{
+  list-style-type: square;
+}
+li ul{
+  background-color:#BFFCDD;
+}
+li{
+  background-color:#BFFCDD;
+  margin:10px;
+  border-radius: 10px;
+  padding: 5px;
+  line-height: 0px;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
+a:visited{
+  color: darkred;
+}
+a:hover{
+  color:orange;
+}
+a:focus{
+  outline: 2px solid indigo; 
+}
+a:active{
+  color: gold;
+}
