@@ -1,0 +1,42 @@
+img{
+  width: 20em;
+}
+
+header, h2{
+  text-align: center;
+  font-family: Georgia;
+}
+
+body{
+  background-image: linear-gradient(black,white);
+  padding: 50px;
+  margin: 0 auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+}
+
+section{
+  width: 80%;
+  margin: auto;
+}
+
+hr{
+  width: 90%;
+  border-color: black;
+}
+
+p{
+  text-align: center;
+  font-family: Brush Script MT;
+  font-size: 30px;
+}
+
+a{
+  color: black;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: grey;
+}
