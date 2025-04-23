@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="lab-job-application-form.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form>
+            <label for="name"><p>Full name:</p></label>
+            <input type="text" id="name" required placeholder="Enter your name">
+            <label for="email"><p>Email:</p></label>
+            <input type="email" id="email" required placeholder="Enter your email">
+            <label for="position"><p>Position:</p></label>
+            <select class="position" id="position" required>
+                <option value="" disabled selected hidden>Select a position</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="cyber-security">Cyber Security</option>
+            </select>
+            <fieldset class="radio-group">
+                <legend>Availability:</legend>
+                <input type="radio" id="full-time" name="availability">
+                <label for="full-time">Full-Time</label>
+                <input type="radio" id="part-time" name="availability">
+                <label for="part-time">Part-Time</label>
+            </fieldset>
+            <label for="message"><p>What makes you the perfect piece to our puzzle?</p></label>
+            <textarea id="message" placeholder="me very good coder" required></textarea>
+            <br>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
