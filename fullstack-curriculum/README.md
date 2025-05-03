@@ -1,3 +1,5 @@
+## Fullstack Curriculum
+
 👋 Hey! This folder contains my work as I go through freeCodeCamp's **Full Stack Developer Curriculum**. Right now, I’ve completed the first part of the curriculum focused on **HTML** and started **CSS**.
 
 ## ✅ Topics I’ve covered so far:
